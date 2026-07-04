@@ -1,2 +1,0 @@
-<?php
-$MESS['T_IMEDIA_CATALOG_PRODUCT_UNSUBSCRIBE_TPL_SUCCESS'] = 'Вы успешно отписались';

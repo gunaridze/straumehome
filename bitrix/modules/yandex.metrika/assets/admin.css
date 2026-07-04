@@ -1,0 +1,159 @@
+.yam{
+    background: #fff;
+}
+
+.yam select,
+.yam input[type="text"]{
+    width: 170px;
+}
+
+.yam .description{
+    font-size: 13px;
+    line-height: normal;
+}
+
+.yam__wrapper{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.yam__header{
+    border-bottom: 2px solid #f0f0f1;
+    padding: 20px 30px;
+}
+
+.yam__description{
+    border-bottom: 2px solid #f0f0f1;
+    padding: 20px 30px;
+    font-size: 15px;
+    line-height: normal;
+}
+
+.yam__logo{
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.yam__settings{
+    padding: 20px 30px;
+}
+
+.yam__submit-buttons{
+    border-top: 2px solid #f0f0f1;
+    padding: 15px 30px 5px;
+
+}
+.yam__spoiler{
+    padding: 5px 30px;
+    padding-left: 32px;
+}
+
+.yam__field{
+    margin-bottom: 15px;
+}
+
+.yam__field:last-child{
+    margin-bottom: 0;
+}
+
+.yam__field-label{
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+    .yam__header{
+        padding: 12px 20px;
+    }
+
+    .yam__description{
+        padding: 12px 20px;
+    }
+
+    .yam__settings{
+        padding: 12px 20px;
+    }
+}
+
+
+.yam-repeater-field{}
+.yam-repeater-field__row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.yam-repeater-field__row_tpl{
+    display: none;
+}
+
+.yam-repeater-field__input-wrap{
+    padding: 3px 9px 3px 0;
+}
+
+.yam-repeater-field__row:nth-child(2):last-child .yam-repeater-field__remove-btn{
+    display: none;
+}
+
+.yam-repeater-field__add-wrap{
+    margin-top: 5px;
+}
+
+.yam-field-desc{
+    font-size: 10px;
+    opacity: 0.7;
+}
+
+.yam-spoiler{
+
+}
+
+.yam-spoiler__btn{
+    text-decoration: underline;
+    color: #888;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.yam-spoiler__btn:hover{
+    text-decoration: none;
+}
+
+.yam-spoiler__content{
+    display: none;
+}
+
+.yam-spoiler__content.active{
+    display: block;
+}
+
+.yam__site{
+    display: inline-block;
+    background: #f5f5f5;
+    color: #4f4f4f;
+    border-radius: 2px;
+    padding: 5px 8px;
+    text-decoration: none;
+}
+
+.yam__site.active{
+    background: #4f4f4f;
+    color: #fff;
+}
+
+
+.yam-logs{
+    height: 300px;
+    background: #f5f5f5;
+    padding: 10px;
+    font-family: monospace;
+    overflow: auto;
+    white-space: nowrap;
+}

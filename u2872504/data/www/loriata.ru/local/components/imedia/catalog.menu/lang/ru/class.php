@@ -1,7 +1,0 @@
-<?php
-$MESS["IMEDIA_MAIN_MODULE_NOT_INSTALLED"] = "Модуль iMedia: Main не установлен";
-$MESS['IMEDIA_CATALOG_MENU_LINK_BRANDS'] = 'Бренды';
-$MESS['IMEDIA_CATALOG_MENU_LINK_NEW'] = 'Новинки';
-$MESS['IMEDIA_CATALOG_MENU_LINK_SALE'] = 'Распродажа';
-$MESS['IMEDIA_CATALOG_MENU_LINK_BLOG'] = 'Блог';
-$MESS['IMEDIA_CATALOG_MENU_LINK_NEWS'] = 'Новости';

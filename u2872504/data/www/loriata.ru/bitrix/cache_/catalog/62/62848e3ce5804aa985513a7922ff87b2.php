@@ -1,7 +1,0 @@
-<?
-if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001730948755';
-$dateexpire = '001731812755';
-$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:2:{s:5:"ITEMS";a:7:{i:0;a:4:{s:2:"ID";i:110;s:4:"SORT";i:500;s:4:"NAME";s:14:"голубой";s:7:"PICTURE";s:55:"/upload/iblock/9ef/kqcjwg7py5dxjb9mn8n7l4qjydag33wm.png";}i:1;a:4:{s:2:"ID";i:108;s:4:"SORT";i:500;s:4:"NAME";s:14:"зеленый";s:7:"PICTURE";s:55:"/upload/iblock/9d3/duipy6g1l1133qxqontb6mi7rz1vzzhd.png";}i:2;a:4:{s:2:"ID";i:246;s:4:"SORT";i:500;s:4:"NAME";s:14:"красный";s:7:"PICTURE";s:55:"/upload/iblock/c5e/71jbhb0gy5e9cwvs37x5591g8szdmrmb.png";}i:3;a:4:{s:2:"ID";i:109;s:4:"SORT";i:500;s:4:"NAME";s:14:"розовый";s:7:"PICTURE";s:55:"/upload/iblock/931/ydenjqd0qgtnc8hgkutv8g82ef5tkc4l.png";}i:4;a:4:{s:2:"ID";i:105;s:4:"SORT";i:500;s:4:"NAME";s:10:"синий";s:7:"PICTURE";s:56:"/upload/iblock/b5d/a8dl9igehcvotig8x6e3ygqqfeot5e5c.jpeg";}i:5;a:4:{s:2:"ID";i:247;s:4:"SORT";i:500;s:4:"NAME";s:8:"хаки";s:7:"PICTURE";s:55:"/upload/iblock/041/7oilrfwzmq7ep0yufvn5xxhddwjcl9s4.jpg";}i:6;a:4:{s:2:"ID";i:245;s:4:"SORT";i:500;s:4:"NAME";s:12:"черный";s:7:"PICTURE";s:55:"/upload/iblock/7f0/yi4vcuczgrqt3qstylugm1y8g4x1gxt9.png";}}s:3:"MAP";a:7:{s:8:"3c34cd17";i:0;s:8:"c05c982a";i:1;s:8:"0e158010";i:2;s:8:"6ecfd3ae";i:3;s:8:"dfe04b45";i:4;s:8:"d4f6a4bd";i:5;s:8:"09fb98df";i:6;}}}';
-return true;
-?>

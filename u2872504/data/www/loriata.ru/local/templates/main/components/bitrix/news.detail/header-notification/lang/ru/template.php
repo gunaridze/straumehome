@@ -1,2 +1,0 @@
-<?php
-$MESS['T_HEADER_NOTIFICATION_CLOSE'] = 'Закрыть';

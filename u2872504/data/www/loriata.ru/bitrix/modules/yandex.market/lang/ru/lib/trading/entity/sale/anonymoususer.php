@@ -1,3 +1,0 @@
-<?php
-
-$MESS['YANDEX_MARKET_TRADING_ENTITY_SALE_ANONYMOUS_USER_NAME'] = 'Анонимный покупатель';

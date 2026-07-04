@@ -1,4 +1,0 @@
-<?php
-
-$MESS['YANDEX_MARKET_TRADING_SHIPMENT_SUBMIT_REQUIRE_MODULE'] = 'Необходим модуль yandex.market';
-$MESS['YANDEX_MARKET_TRADING_SHIPMENT_SUBMIT_HASNT_REQUEST'] = 'Неверный формат запроса';

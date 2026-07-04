@@ -1,7 +1,0 @@
-.adm-global-menu-imedia-main .adm-main-menu-item-icon {
-	background: url('../images/menu.png') 11px 0 no-repeat;
-}
-.adm-global-menu-imedia-main:hover .adm-main-menu-item-icon,
-.adm-main-menu-item-active.adm-global-menu-imedia-main .adm-main-menu-item-icon {
-	background-position: 11px -45px;
-}

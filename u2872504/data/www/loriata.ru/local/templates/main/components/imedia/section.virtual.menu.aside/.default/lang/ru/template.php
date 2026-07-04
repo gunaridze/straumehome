@@ -1,2 +1,0 @@
-<?php
-$MESS['T_SECTION_VIRTUAL_MENU_ASIDE_TOGGLE'] = 'Развернуть';

@@ -1,0 +1,113 @@
+Options -Indexes 
+ErrorDocument 404 /404.php
+
+SetEnvIf Authorization .+ HTTP_AUTHORIZATION=$0
+
+<IfModule mod_php5.c>
+	php_flag allow_call_time_pass_reference 1
+	php_flag session.use_trans_sid off
+
+	#php_value display_errors 1
+
+	#php_value mbstring.internal_encoding UTF-8
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+	Options +FollowSymLinks
+
+	  RewriteRule .* - [E=REDIRECT_HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+      RewriteCond %{REQUEST_URI} \..+$
+      RewriteCond %{REQUEST_FILENAME} !-d
+      RewriteCond %{REQUEST_FILENAME} -f
+      RewriteCond %{REQUEST_URI} ^(.+)/$
+      RewriteRule ^(.+)/$ https://loriata.ru/$1 [R=301,L]
+
+      RewriteCond %{REQUEST_URI} !(.*)/$
+      RewriteCond %{REQUEST_FILENAME} !-f
+      RewriteCond %{REQUEST_URI} !\..+$
+      RewriteRule ^(.*)$ https://loriata.ru/$1/ [L,R=301]
+
+      RewriteCond %{THE_REQUEST} ^GET.*index\.php [NC]
+      RewriteCond %{REQUEST_URI} !^/bitrix/.* [NC]
+      RewriteRule (.*?)index\.php/*(.*) https://loriata.ru/$1$2 [R=301,NE,L]
+
+      RewriteCond %{THE_REQUEST} ^GET.*index\.html [NC]
+      RewriteCond %{REQUEST_URI} !^/bitrix/.* [NC]
+      RewriteRule (.*?)index\.html/*(.*) https://loriata.ru/$1$2 [R=301,NE,L]
+
+      RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
+      RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+      RewriteCond %{THE_REQUEST} ([^\s]*)\/{2,}(\?[^\s]*)?
+      RewriteRule (.*) %1 [R=301,L]
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-l
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME} !/bitrix/routing_index.php$
+    RewriteRule ^(.*)$ /bitrix/routing_index.php [L]
+	RewriteRule .* - [E=REMOTE_USER:%{HTTP:Authorization}]
+</IfModule>
+
+<IfModule mod_dir.c>
+  DirectoryIndex index.php index.html
+</IfModule>
+
+<IfModule mod_deflate.c>
+    AddEncoding gzip .gz
+    AddOutputFilterByType DEFLATE image/x-icon
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE text/javascript
+    AddOutputFilterByType DEFLATE application/x-javascript
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE application/json
+    AddOutputFilterByType DEFLATE text/plain
+    AddOutputFilterByType DEFLATE text/x-component
+    AddOutputFilterByType DEFLATE text/xml
+    AddOutputFilterByType DEFLATE application/xml
+    AddOutputFilterByType DEFLATE application/rss+xml
+    AddOutputFilterByType DEFLATE application/atom+xml
+    AddOutputFilterByType DEFLATE font/truetype
+    AddOutputFilterByType DEFLATE font/opentype
+    AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+    AddOutputFilterByType DEFLATE image/svg+xml
+    BrowserMatch "MSIE [456]" no_gzip dont-vary
+    BrowserMatch "SV1;" !no_gzip !dont-vary
+    BrowserMatch "Opera" !no_gzip !dont-vary
+    BrowserMatch "Firefox/[0-3]\." gzip-only-text/html
+    BrowserMatch "Firefox/3\.[1-9]" !gzip-only-text/html
+    BrowserMatch "Chrome/2" gzip-only-text/html
+    BrowserMatch "Safari" gzip-only-text/html
+    BrowserMatch "Konqueror" gzip-only-text/html
+</IfModule>
+
+<IfModule mod_expires.c>
+    ExpiresActive on
+    ExpiresByType image/x-icon "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 4 weeks"
+    ExpiresByType image/png "access plus 30 days"
+    ExpiresByType image/gif "access plus 43829 minutes"
+    ExpiresByType application/x-shockwave-flash "access plus 2592000 seconds"
+
+    ExpiresByType text/css "access plus 604800 seconds"
+    ExpiresByType text/javascript "access plus 604800 seconds"
+    ExpiresByType application/javascript "access plus 604800 seconds"
+    ExpiresByType application/x-javascript "access plus 604800 seconds"
+
+    ExpiresByType text/html "access plus 43200 seconds"
+
+    ExpiresByType application/xhtml+xml "access plus 600 seconds"
+
+    ExpiresByType application/x-font-ttf "access plus 1 month"
+    ExpiresByType font/opentype "access plus 1 month"
+    ExpiresByType application/x-font-woff "access plus 1 month"
+    ExpiresByType image/svg+xml "access plus 1 month"
+    ExpiresByType application/vnd.ms-fontobject "access plus 1 month"
+</IfModule>
+
+<Files "bitbucket-pipelines.yml">
+  Require all denied
+</Files>

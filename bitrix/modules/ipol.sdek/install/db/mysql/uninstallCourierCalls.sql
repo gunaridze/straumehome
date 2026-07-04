@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS `ipol_sdek_courier_calls`;

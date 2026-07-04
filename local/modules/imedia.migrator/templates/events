@@ -1,0 +1,50 @@
+<?php
+
+use Arrilot\BitrixMigrations\BaseMigrations\BitrixMigration;
+use Arrilot\BitrixMigrations\Exceptions\MigrationException;
+
+class __className__ extends BitrixMigration
+{
+
+    static $events = [
+        [
+            "from_module" => "catalog",
+            "to_module" => "imedia.tools",
+            "event" => "eventName",
+            "class" => "class",
+            "method" => "method",
+            "sort" => 100
+        ]
+    ];
+
+    public function up()
+    {
+        $eventManager = \Bitrix\Main\EventManager::getInstance();
+
+        foreach (self::$events as $event) {
+            $eventManager->registerEventHandler(
+                $event['from_module'],
+                $event['event'],
+                $event['to_module'],
+                $event['class'],
+                $event['method'],
+                $event['sort']
+            );
+        }
+    }
+
+    public function down()
+    {
+        $eventManager = \Bitrix\Main\EventManager::getInstance();
+
+        foreach (self::$events as $event) {
+            $eventManager->unRegisterEventHandler(
+                $event['module'],
+                $event['event'],
+                $event['to_module'],
+                $event['class'],
+                $event['method']
+            );
+        }
+    }
+}

@@ -1,7 +1,0 @@
-<?php
-$MESS['T_FOOTER_PAYMENTS_MASTERCARD'] = 'Mastercard';
-$MESS['T_FOOTER_PAYMENTS_VISA'] = 'Visa';
-$MESS['T_FOOTER_PAYMENTS_MIR'] = 'МИР';
-$MESS['T_FOOTER_PAYMENTS_GPAY'] = 'Google Pay';
-$MESS['T_FOOTER_PAYMENTS_IPAY'] = 'Apple Pay';
-$MESS['T_FOOTER_PAYMENTS_CERTIFICATE'] = 'Оплата подарочным сертификатом';

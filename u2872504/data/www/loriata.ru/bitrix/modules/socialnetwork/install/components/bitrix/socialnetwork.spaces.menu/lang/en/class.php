@@ -1,5 +1,0 @@
-<?php
-$MESS["SN_SPACES_MENU_CALENDAR"] = "Calendar";
-$MESS["SN_SPACES_MENU_FILES"] = "Files";
-$MESS["SN_SPACES_MENU_GENERAL"] = "Feed";
-$MESS["SN_SPACES_MENU_TASKS"] = "Tasks";

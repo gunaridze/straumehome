@@ -1,3 +1,0 @@
-<?php
-$MESS["IM_MODEL_USERS_CHAT_BOT"] = "Chat Bot";
-$MESS["IM_MODEL_USERS_DEFAULT_NAME"] = "User";

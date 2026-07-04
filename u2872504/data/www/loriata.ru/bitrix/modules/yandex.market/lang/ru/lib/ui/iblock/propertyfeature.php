@@ -1,3 +1,0 @@
-<?php
-
-$MESS['YANDEX_MARKET_UI_IBLOCK_PROPERTY_FEATURE_NAME'] = 'Умные свойства для #SERVICE#';

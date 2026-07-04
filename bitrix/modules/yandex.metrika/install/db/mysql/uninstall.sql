@@ -1,0 +1,1 @@
+drop table if exists yandex_metrika_actions;

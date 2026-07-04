@@ -1,0 +1,2 @@
+<?php
+$MESS['IMEDIA_USER_UPDATE_PERSONAL_DATA_INCORRECT_VALUE'] = 'Некорректное значение';

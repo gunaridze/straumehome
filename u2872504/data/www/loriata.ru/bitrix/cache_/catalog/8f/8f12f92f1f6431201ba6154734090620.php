@@ -1,7 +1,0 @@
-<?
-if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001730931623';
-$dateexpire = '001731795623';
-$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:7:{i:0;a:3:{s:4:"code";s:8:"material";s:5:"title";s:16:"Материал";s:4:"cols";a:1:{i:0;a:3:{s:4:"code";s:17:"OSNOVNOY_MATERIAL";s:5:"title";s:33:"Основной материал";s:9:"useSearch";b:0;}}}i:1;a:3:{s:4:"code";s:5:"color";s:5:"title";s:8:"Цвет";s:4:"cols";a:1:{i:0;a:3:{s:4:"code";s:14:"OSNOVNOY_TSVET";s:5:"title";s:25:"Выберите цвет";s:9:"useSearch";b:0;}}}i:2;a:3:{s:4:"code";s:4:"size";s:5:"title";s:12:"Размер";s:4:"cols";a:1:{i:0;a:3:{s:4:"code";s:11:"FILTER_SIZE";s:5:"title";s:29:"Выберите размер";s:9:"useSearch";b:0;}}}i:3;a:2:{s:4:"code";s:5:"price";s:5:"title";s:8:"Цена";}i:4;a:3:{s:4:"code";s:5:"brand";s:5:"title";s:10:"Бренд";s:4:"cols";a:1:{i:0;a:4:{s:4:"code";s:5:"BRAND";s:5:"title";s:21:"Найти бренд";s:9:"useSearch";b:1;s:17:"searchPlaceholder";s:31:"Введите название";}}}i:5;a:3:{s:4:"code";s:5:"style";s:5:"title";s:10:"Стиль";s:4:"cols";a:1:{i:0;a:3:{s:4:"code";s:4:"STIL";s:5:"title";s:10:"Стиль";s:9:"useSearch";b:0;}}}i:6;a:3:{s:4:"code";s:13:"sleeve_length";s:5:"title";s:25:"Длина рукавов";s:4:"cols";a:1:{i:0;a:3:{s:4:"code";s:13:"DLINA_RUKAVOV";s:5:"title";s:25:"Длина рукавов";s:9:"useSearch";b:0;}}}}}';
-return true;
-?>

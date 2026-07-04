@@ -1,0 +1,2 @@
+<?php
+$MESS['IMEDIA_FIELD_TEXT_DESCRIPTION'] = 'Текст';

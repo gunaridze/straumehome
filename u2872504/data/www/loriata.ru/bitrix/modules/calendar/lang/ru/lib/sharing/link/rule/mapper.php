@@ -1,4 +1,0 @@
-<?php
-
-$MESS['CALENDAR_SHARING_WORKDAYS'] = 'Рабочие дни';
-$MESS['CALENDAR_SHARING_WORKDAYS_MSGVER_1'] = 'Рабочие дни';

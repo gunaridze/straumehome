@@ -1,3 +1,0 @@
-<?php
-$MESS['T_HEADER_CONTACT_PHONE_DESCRIPTION'] = 'Звонок бесплатный';
-$MESS['T_HEADER_CONTACT_WHATSAPP'] = 'WhatsApp';

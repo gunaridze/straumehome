@@ -1,7 +1,0 @@
-<?
-if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001730450586';
-$dateexpire = '001731314586';
-$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:5:{i:0;a:8:{s:2:"ID";s:2:"84";s:4:"CODE";s:10:"0000073738";s:13:"LOCATION_NAME";s:12:"Москва";s:11:"PARENT_NAME";s:12:"Россия";s:8:"UALIAS_0";s:3:"167";s:8:"UALIAS_1";s:1:"1";s:8:"UALIAS_2";s:1:"1";s:8:"UALIAS_3";s:1:"5";}i:1;a:8:{s:2:"ID";s:3:"319";s:4:"CODE";s:10:"0000156838";s:13:"LOCATION_NAME";s:16:"Мосальск";s:11:"PARENT_NAME";s:31:"Мосальский район";s:8:"UALIAS_0";s:3:"637";s:8:"UALIAS_1";s:3:"318";s:8:"UALIAS_2";s:3:"635";s:8:"UALIAS_3";s:1:"5";}i:2;a:8:{s:2:"ID";s:3:"653";s:4:"CODE";s:10:"0000258908";s:13:"LOCATION_NAME";s:24:"Новомосковск";s:11:"PARENT_NAME";s:39:"Новомосковский район";s:8:"UALIAS_0";s:4:"1305";s:8:"UALIAS_1";s:3:"652";s:8:"UALIAS_2";s:4:"1303";s:8:"UALIAS_3";s:1:"5";}i:3;a:8:{s:2:"ID";s:4:"3133";s:4:"CODE";s:10:"0000078911";s:13:"LOCATION_NAME";s:20:"Московский";s:11:"PARENT_NAME";s:12:"Москва";s:8:"UALIAS_0";s:4:"6265";s:8:"UALIAS_1";s:2:"84";s:8:"UALIAS_2";s:3:"167";s:8:"UALIAS_3";s:1:"5";}i:4;a:8:{s:2:"ID";s:4:"3383";s:4:"CODE";s:10:"0000000262";s:13:"LOCATION_NAME";s:10:"Мосты";s:11:"PARENT_NAME";s:31:"Мостовский район";s:8:"UALIAS_0";s:4:"6765";s:8:"UALIAS_1";s:4:"3382";s:8:"UALIAS_2";s:4:"6763";s:8:"UALIAS_3";s:1:"5";}}}';
-return true;
-?>

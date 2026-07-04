@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001730977949';
+$dateexpire = '001731064349';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:34:{i:0;a:1:{s:2:"ID";s:12:"b24connector";}i:1;a:1:{s:2:"ID";s:11:"bitrixcloud";}i:2;a:1:{s:2:"ID";s:7:"catalog";}i:3;a:1:{s:2:"ID";s:6:"clouds";}i:4;a:1:{s:2:"ID";s:10:"conversion";}i:5;a:1:{s:2:"ID";s:8:"currency";}i:6;a:1:{s:2:"ID";s:7:"fileman";}i:7;a:1:{s:2:"ID";s:4:"form";}i:8;a:1:{s:2:"ID";s:13:"highloadblock";}i:9;a:1:{s:2:"ID";s:6:"iblock";}i:10;a:1:{s:2:"ID";s:11:"imedia.main";}i:11;a:1:{s:2:"ID";s:15:"imedia.migrator";}i:12;a:1:{s:2:"ID";s:10:"imedia.sms";}i:13;a:1:{s:2:"ID";s:9:"ipol.sdek";}i:14;a:1:{s:2:"ID";s:8:"location";}i:15;a:1:{s:2:"ID";s:4:"main";}i:16;a:1:{s:2:"ID";s:14:"messageservice";}i:17;a:1:{s:2:"ID";s:7:"perfmon";}i:18;a:1:{s:2:"ID";s:4:"pull";}i:19;a:1:{s:2:"ID";s:6:"report";}i:20;a:1:{s:2:"ID";s:4:"rest";}i:21;a:1:{s:2:"ID";s:4:"sale";}i:22;a:1:{s:2:"ID";s:5:"scale";}i:23;a:1:{s:2:"ID";s:6:"search";}i:24;a:1:{s:2:"ID";s:8:"security";}i:25;a:1:{s:2:"ID";s:6:"sender";}i:26;a:1:{s:2:"ID";s:3:"seo";}i:27;a:1:{s:2:"ID";s:14:"socialservices";}i:28;a:1:{s:2:"ID";s:11:"storeassist";}i:29;a:1:{s:2:"ID";s:9:"subscribe";}i:30;a:1:{s:2:"ID";s:9:"translate";}i:31;a:1:{s:2:"ID";s:2:"ui";}i:32;a:1:{s:2:"ID";s:4:"vote";}i:33;a:1:{s:2:"ID";s:13:"yandex.market";}}}';
+return true;
+?>

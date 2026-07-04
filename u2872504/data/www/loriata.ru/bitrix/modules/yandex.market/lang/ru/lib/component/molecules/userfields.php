@@ -1,3 +1,0 @@
-<?php
-
-$MESS['YANDEX_MARKET_COMPONENT_MOLECULES_USERFIELDS_FIELD_REQUIRED'] = 'Не заполнено поле &laquo;#FIELD_NAME#&raquo;';

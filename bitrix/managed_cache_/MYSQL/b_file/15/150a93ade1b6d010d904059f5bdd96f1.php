@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001730975965';
+$dateexpire = '001730979565';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:2:{i:82050;a:16:{s:2:"ID";s:5:"82050";s:11:"TIMESTAMP_X";s:19:"28.10.2024 21:25:30";s:9:"MODULE_ID";s:6:"iblock";s:6:"HEIGHT";s:4:"1415";s:5:"WIDTH";s:4:"1060";s:9:"FILE_SIZE";s:6:"518523";s:12:"CONTENT_TYPE";s:10:"image/jpeg";s:6:"SUBDIR";s:10:"iblock/7f4";s:9:"FILE_NAME";s:36:"k8fjg9fxqnaibw7mes3qa1ltap8hpikw.jpg";s:13:"ORIGINAL_NAME";s:44:"2626 джемпер _2610 брюки (6).jpg";s:11:"DESCRIPTION";s:0:"";s:10:"HANDLER_ID";N;s:11:"EXTERNAL_ID";s:32:"2025b5a21d7a784ec803c14e75e96db1";s:19:"VERSION_ORIGINAL_ID";N;s:4:"META";s:0:"";s:3:"SRC";s:55:"/upload/iblock/7f4/k8fjg9fxqnaibw7mes3qa1ltap8hpikw.jpg";}i:82051;a:16:{s:2:"ID";s:5:"82051";s:11:"TIMESTAMP_X";s:19:"28.10.2024 21:25:30";s:9:"MODULE_ID";s:6:"iblock";s:6:"HEIGHT";s:4:"1415";s:5:"WIDTH";s:4:"1060";s:9:"FILE_SIZE";s:6:"518523";s:12:"CONTENT_TYPE";s:10:"image/jpeg";s:6:"SUBDIR";s:10:"iblock/7f4";s:9:"FILE_NAME";s:36:"k8fjg9fxqnaibw7mes3qa1ltap8hpikw.jpg";s:13:"ORIGINAL_NAME";s:44:"2626 джемпер _2610 брюки (6).jpg";s:11:"DESCRIPTION";s:0:"";s:10:"HANDLER_ID";N;s:11:"EXTERNAL_ID";s:32:"3a596ac3eb37b039a3449bac854a187c";s:19:"VERSION_ORIGINAL_ID";N;s:4:"META";s:0:"";s:3:"SRC";s:55:"/upload/iblock/7f4/k8fjg9fxqnaibw7mes3qa1ltap8hpikw.jpg";}}}';
+return true;
+?>

@@ -1,3 +1,0 @@
-<?php
-$MESS["UI_SIDEPANEL_MENU_JS_COLLAPSE"] = "Minimieren";
-$MESS["UI_SIDEPANEL_MENU_JS_EXPAND"] = "Maximieren";

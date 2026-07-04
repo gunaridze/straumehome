@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001729666201';
+$dateexpire = '001761202201';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:1:{i:1;a:15:{s:2:"ID";s:1:"1";s:4:"NAME";s:21:"Атол онлайн";s:6:"ACTIVE";s:1:"Y";s:7:"HANDLER";s:38:"\\Bitrix\\Sale\\Cashbox\\CashboxAtolFarmV5";s:5:"EMAIL";s:22:"j.hmeleva@citystils.ru";s:4:"SORT";s:3:"100";s:11:"DATE_CREATE";O:25:"Bitrix\\Main\\Type\\DateTime":2:{s:8:"'.chr(0).'*'.chr(0).'value";O:8:"DateTime":3:{s:4:"date";s:26:"2023-03-15 18:36:00.000000";s:13:"timezone_type";i:3;s:8:"timezone";s:13:"Europe/Moscow";}s:18:"'.chr(0).'*'.chr(0).'userTimeEnabled";b:1;}s:15:"DATE_LAST_CHECK";N;s:6:"KKM_ID";s:0:"";s:3:"OFD";s:29:"\\Bitrix\\Sale\\Cashbox\\OfdruOfd";s:10:"NUMBER_KKM";s:16:"group_code_32641";s:8:"SETTINGS";a:7:{s:4:"AUTH";a:2:{s:5:"LOGIN";s:36:"4e8294df-409b-4a42-973f-5421236a1ed7";s:4:"PASS";s:8:"ZbdthBGq";}s:7:"SERVICE";a:3:{s:3:"INN";s:10:"7841072077";s:9:"P_ADDRESS";s:14:"www.loriata.ru";s:5:"EMAIL";s:15:"shop@loriata.ru";}s:6:"CLIENT";a:1:{s:4:"INFO";s:4:"NONE";}s:3:"VAT";a:2:{s:7:"NOT_VAT";s:4:"none";i:1;s:4:"vat0";}s:3:"TAX";a:1:{s:3:"SNO";s:18:"usn_income_outcome";}s:7:"MEASURE";a:7:{s:7:"DEFAULT";s:1:"0";i:6;s:2:"22";i:112;s:2:"41";i:163;s:2:"10";i:166;s:2:"11";i:796;s:1:"0";i:778;s:3:"255";}s:11:"INTERACTION";a:1:{s:12:"MODE_HANDLER";s:6:"ACTIVE";}}s:12:"OFD_SETTINGS";a:2:{s:8:"OFD_MODE";a:1:{s:7:"IS_TEST";s:1:"N";}s:6:"SELLER";a:1:{s:3:"INN";s:10:"7841072077";}}s:11:"USE_OFFLINE";s:1:"N";s:7:"ENABLED";s:1:"Y";}}}';
+return true;
+?>

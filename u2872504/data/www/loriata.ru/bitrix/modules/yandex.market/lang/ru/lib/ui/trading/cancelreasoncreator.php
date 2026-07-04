@@ -1,3 +1,0 @@
-<?php
-
-$MESS['YANDEX_MARKET_UI_TRADING_CANCELREASONCREATOR_NAME'] = 'Причина отмены';

@@ -1,3 +1,0 @@
-<?php
-$MESS["SIGN_WIZARD_FOOTER_BUTTON_BACK"] = "Zurück";
-$MESS["SIGN_WIZARD_FOOTER_BUTTON_NEXT"] = "Fortfahren";

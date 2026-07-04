@@ -1,3 +1,0 @@
-<?php
-$MESS["T_IMEDIA_DESC_GROUP_NAME"] = "iMedia";
-$MESS["T_IMEDIA_CHANGE_PASSWORD_DESC_NAME"] = "Смена пароля";

@@ -1,3 +1,0 @@
-<?php
-$MESS["UI_NOTIFICATION_MANAGER_CLOSE"] = "Schließen";
-$MESS["UI_NOTIFICATION_MANAGER_REPLY"] = "Antworten";

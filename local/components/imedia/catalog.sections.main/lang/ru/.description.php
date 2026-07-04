@@ -1,0 +1,3 @@
+<?php
+$MESS["T_IMEDOA_DESC_GROUP_NAME"] = "iMedia";
+$MESS["T_IMEDIA_CATALOG_SECTIONS_MAIN_DESC_NAME"] = "Корневые разделы";
