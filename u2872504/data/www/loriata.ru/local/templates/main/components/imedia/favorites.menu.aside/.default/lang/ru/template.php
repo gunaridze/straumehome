@@ -1,0 +1,3 @@
+<?php
+$MESS['T_FAVORITES_MENU_ASIDE_TOGGLE'] = 'Развернуть';
+$MESS['T_FAVORITES_MENU_ASIDE_TOGGLE_BACK'] = 'Свернуть';

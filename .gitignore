@@ -1,0 +1,33 @@
+# Ignore original large SQL dump and all raw SQL dumps recursively
+*.sql
+
+# Ignore system junk
+.DS_Store
+Thumbs.db
+
+# Bitrix ignore rules mapped to directory structure
+u2872504/data/www/loriata.ru/upload/
+u2872504/data/www/loriata.ru/bitrix/cache/
+u2872504/data/www/loriata.ru/bitrix/managed_cache/
+u2872504/data/www/loriata.ru/bitrix/stack_cache/
+u2872504/data/www/loriata.ru/bitrix/updates/
+u2872504/data/www/loriata.ru/bitrix/tmp/
+u2872504/data/www/loriata.ru/bitrix/backup/
+u2872504/data/www/loriata.ru/bitrix/vendor/
+u2872504/data/www/loriata.ru/bitrix/wizards/
+u2872504/data/www/loriata.ru/bitrix/html_pages/
+u2872504/data/www/loriata.ru/logs/
+u2872504/data/www/loriata.ru/test/
+
+# Bitrix configuration files containing credentials (do not commit to git)
+u2872504/data/www/loriata.ru/bitrix/php_interface/dbconn.php
+u2872504/data/www/loriata.ru/bitrix/php_interface/after_connect.php
+u2872504/data/www/loriata.ru/bitrix/php_interface/after_connect_d7.php
+u2872504/data/www/loriata.ru/bitrix/.settings.php
+u2872504/data/www/loriata.ru/bitrix/.settings_extra.php
+u2872504/data/www/loriata.ru/bitrix/admin/.htaccess
+
+# Other files
+u2872504/data/www/loriata.ru/*.log
+u2872504/data/www/loriata.ru/*.tar.gz
+u2872504/data/www/loriata.ru/*.zip

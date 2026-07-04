@@ -1,0 +1,7 @@
+<?php
+$MESS['T_FORM_FEEDBACK_TITLE'] = 'Наши менеджеры ответят на любые возникшие у Вас вопросы';
+$MESS['T_FORM_FEEDBACK_FIELD_PLACEHOLDER_NAME'] = 'Имя*';
+$MESS['T_FORM_FEEDBACK_FIELD_PLACEHOLDER_LAST_NAME'] = 'Фамилия*';
+$MESS['T_FORM_FEEDBACK_FIELD_PLACEHOLDER_PHONE'] = 'Ваш телефон*';
+$MESS['T_FORM_FEEDBACK_FIELD_PLACEHOLDER_EMAIL'] = 'Ваш e-mail*';
+$MESS['T_FORM_FEEDBACK_FIELD_PLACEHOLDER_MESS'] = 'Комментарий';

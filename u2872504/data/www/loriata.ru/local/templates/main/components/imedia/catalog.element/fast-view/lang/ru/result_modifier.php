@@ -1,0 +1,28 @@
+<?php
+$MESS['CT_BCE_CATALOG_ABOUT_PRODUCTS'] = 'О товаре';
+$MESS['CT_BCE_CATALOG_MORE'] = 'Подробнее';
+$MESS['CT_BCE_CATALOG_DELIVERY_METHODS'] = 'Доставка';
+$MESS['CT_BCE_CATALOG_SUBSCRIBE_TITLE'] = 'Подписаться на мой размер';
+$MESS['CT_BCE_CATALOG_SUBSCRIBE_SUBTITLE'] = 'Мы обязательно напишем, когда нужный размер появится в наличии';
+$MESS['CT_BCE_CATALOG_SUBSCRIBE_EMAIL'] = 'Введите ваш Email';
+$MESS['CT_BCE_CATALOG_SUBSCRIBE_BTN'] = 'Подписаться на рассылку';
+$MESS['CT_BCE_CATALOG_SUBSCRIBE_AGREEMENT'] = 'Я принимаю <a href="#LINK#">Пользовательское соглашение</a> о конфиденциальности';
+$MESS['CT_BCE_CATALOG_ALREADY_SUBSCRIBED'] = 'Вы уже подписаны';
+$MESS['CT_BCE_CATALOG_SUBSCRIBE_SUCCESS'] = 'Спасибо! Вы успешно подписались';
+$MESS['CT_BCE_CATALOG_TABLE_SIZES'] = 'Таблица размеров';
+$MESS['CT_BCE_CATALOG_ADD_TO_BASKET'] = 'Добавить в корзину';
+$MESS['CT_BCE_CATALOG_ADDED_TO_BASKET'] = 'В корзине';
+$MESS['CT_BCE_CATALOG_ADD_TO_FAVORITE'] = 'В избранное';
+$MESS['CT_BCE_CATALOG_ADDED_TO_FAVORITE'] = 'В избранном';
+$MESS['CT_BCE_CATALOG_ALL'] = 'Все';
+$MESS['CT_BCE_CATALOG_SECTION_BRAND'] = 'Категория и бренд';
+$MESS['CT_BCE_CATALOG_ALL_PRODUCTS'] = 'Все товары';
+$MESS['CT_BCE_CATALOG_BRAND'] = 'Бренд';
+$MESS['CT_BCE_CATALOG_SECTION'] = 'Категория';
+$MESS['CT_BCE_CATALOG_ORIGINAL_BRANDS'] = 'Только оригинальные бренды';
+$MESS['CT_BCE_CATALOG_WARRANTY'] = 'Гарантия подлинности';
+$MESS['CT_BCE_CATALOG_DETAIL'] = 'Детали';
+$MESS['CT_BCE_CATALOG_SHOPS_AVAILABILITY'] = 'Наличие в магазинах';
+$MESS['CT_BCE_CATALOG_SHOPS_AVAILABILITY_IN_STOCK'] = 'В наличии';
+$MESS['CT_BCE_CATALOG_HIDE'] = 'Скрыть';
+$MESS['CT_BCE_CATALOG_TOOLTIP_TEXT'] = 'Текст подсказки:';

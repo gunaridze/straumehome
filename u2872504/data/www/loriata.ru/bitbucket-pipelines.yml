@@ -1,0 +1,14 @@
+pipelines:
+    branches:
+        master:
+        - step:
+            clone:
+              enabled: false
+            deployment: staging
+            script:
+                - ssh -T bitrix@vmbitrix.citymodashop.ru -p 1122 "cd /var/www/u2872504/data/www/loriata.ru/; git fetch --all; git reset --hard origin/master; rm -Rf front; cd /var/www/u2872504/data/www/loriata.ru/local/; composer install; cd /var/www/u2872504/data/www/loriata.ru/; php local/modules/imedia.migrator/migrator migrate;"
+        dev_test:
+        - step:
+            deployment: staging
+            script:
+            - ssh -T imediasub@sub.imediasolutions.ru "cd /var/www/imediasub/data/www/citymoda/; git reset --hard HEAD; git pull origin dev_test; rm -Rf front; php7.4 local/modules/imedia.migrator/migrator migrate;"

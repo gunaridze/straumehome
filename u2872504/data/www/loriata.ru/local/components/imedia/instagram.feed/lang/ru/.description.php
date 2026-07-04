@@ -1,0 +1,3 @@
+<?php
+$MESS["T_IMEDIA_DESC_GROUP_NAME"] = "iMedia";
+$MESS["T_IMEDIA_INSTAGRAM_FEED_DESC_NAME"] = "Instagram feed";

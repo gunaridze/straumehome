@@ -1,0 +1,4 @@
+<?php
+$MESS['IMEDIA_SMS_FAKE_SHORT_NAME'] = 'Fake';
+$MESS['IMEDIA_SMS_FAKE_ID'] = 'fake';
+$MESS['IMEDIA_SMS_FAKE_NAME'] = 'Fake';

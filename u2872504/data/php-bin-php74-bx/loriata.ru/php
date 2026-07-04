@@ -1,0 +1,6 @@
+#!/bin/sh
+PHP_INI_SCAN_DIR='/var/www/u2872504/data/php-bin-php74-bx/loriata.ru:'
+PHPRC='/var/www/u2872504/data/php-bin-php74-bx'
+export PHP_INI_SCAN_DIR
+export PHPRC
+exec /opt/php/7.4-bx-optimized/bin/php-cgi

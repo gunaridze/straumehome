@@ -1,0 +1,3 @@
+<?php
+$MESS['T_IMEDIA_PAGI_CATALOG_PREV'] = 'Назад';
+$MESS['T_IMEDIA_PAGI_CATALOG_NEXT'] = 'Вперед';

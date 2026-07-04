@@ -1,0 +1,9 @@
+<?php
+$MESS["IMEDIA_MAIN_GLOBAL_MENU_TEXT"] = "Настройки сайта";
+$MESS["IMEDIA_MAIN_GLOBAL_MENU_TITLE"] = "Настройки сайта";
+
+$MESS["IMEDIA_MAIN_GLOBAL_MENU_SITE_SETTINGS_TEXT"] = "Настройки";
+$MESS["IMEDIA_MAIN_GLOBAL_MENU_SITE_SETTINGS_TITLE"] = "Настройки";
+
+$MESS["IMEDIA_MAIN_GLOBAL_MENU_CATALOG_UPDATE_TEXT"] = "Обновление каталога";
+$MESS["IMEDIA_MAIN_GLOBAL_MENU_CATALOG_UPDATE_TITLE"] = "Обновление свойств каталога";

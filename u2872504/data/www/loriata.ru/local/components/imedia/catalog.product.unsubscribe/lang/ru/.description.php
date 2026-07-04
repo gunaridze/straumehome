@@ -1,0 +1,3 @@
+<?php
+$MESS["T_IMEDIA_CATALOG_PRODUCT_UNSUBSCRIBE_DESC_NAME"] = "Отписаться от товара";
+$MESS["T_IMEDIA_DESC_GROUP_NAME"] = "iMedia";

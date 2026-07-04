@@ -1,0 +1,4 @@
+<?php
+$MESS['T_CATALOG_MENU_MOBILE_TITLE_POPULAR'] = 'Популярное';
+$MESS['T_CATALOG_MENU_MOBILE_LINK_ALL'] = 'все категории';
+$MESS['T_CATALOG_MENU_MOBILE_LINK_BRANDS'] = 'все бренды';

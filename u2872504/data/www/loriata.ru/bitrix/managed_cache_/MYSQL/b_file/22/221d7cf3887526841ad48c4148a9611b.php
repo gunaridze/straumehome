@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001730948755';
+$dateexpire = '001730952355';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:2:{i:458;a:16:{s:2:"ID";s:3:"458";s:11:"TIMESTAMP_X";s:19:"12.05.2022 00:05:41";s:9:"MODULE_ID";s:6:"iblock";s:6:"HEIGHT";s:2:"60";s:5:"WIDTH";s:2:"57";s:9:"FILE_SIZE";s:4:"2589";s:12:"CONTENT_TYPE";s:9:"image/png";s:6:"SUBDIR";s:10:"iblock/7f0";s:9:"FILE_NAME";s:36:"yi4vcuczgrqt3qstylugm1y8g4x1gxt9.png";s:13:"ORIGINAL_NAME";s:96:"png-transparent-computer-icons-symbol-black-dots-miscellaneous-image-file-formats-monochrome.png";s:11:"DESCRIPTION";s:0:"";s:10:"HANDLER_ID";N;s:11:"EXTERNAL_ID";s:32:"008c0f2720a223bfa4ff9f2094d496f5";s:19:"VERSION_ORIGINAL_ID";N;s:4:"META";s:0:"";s:3:"SRC";s:55:"/upload/iblock/7f0/yi4vcuczgrqt3qstylugm1y8g4x1gxt9.png";}i:459;a:16:{s:2:"ID";s:3:"459";s:11:"TIMESTAMP_X";s:19:"12.05.2022 00:06:31";s:9:"MODULE_ID";s:6:"iblock";s:6:"HEIGHT";s:2:"60";s:5:"WIDTH";s:2:"60";s:9:"FILE_SIZE";s:4:"3844";s:12:"CONTENT_TYPE";s:9:"image/png";s:6:"SUBDIR";s:10:"iblock/c5e";s:9:"FILE_NAME";s:36:"71jbhb0gy5e9cwvs37x5591g8szdmrmb.png";s:13:"ORIGINAL_NAME";s:118:"png-transparent-red-computer-icons-circle-high-quality-glossy-ball-s-for-free-miscellaneous-color-sphere-thumbnail.png";s:11:"DESCRIPTION";s:0:"";s:10:"HANDLER_ID";N;s:11:"EXTERNAL_ID";s:32:"7fa1bcb1452fc58d392d63a49d393782";s:19:"VERSION_ORIGINAL_ID";N;s:4:"META";s:0:"";s:3:"SRC";s:55:"/upload/iblock/c5e/71jbhb0gy5e9cwvs37x5591g8szdmrmb.png";}}}';
+return true;
+?>

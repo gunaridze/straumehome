@@ -1,0 +1,3 @@
+<?php
+$MESS["T_IMEDIA_DESC_GROUP_NAME"] = "iMedia";
+$MESS["T_IMEDIA_BRANDS_DESC_NAME"] = "Бренды";

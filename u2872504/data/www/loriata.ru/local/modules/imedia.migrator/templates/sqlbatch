@@ -1,0 +1,20 @@
+<?php
+
+use Arrilot\BitrixMigrations\BaseMigrations\BitrixMigration;
+use Arrilot\BitrixMigrations\Exceptions\MigrationException;
+
+class __className__ extends BitrixMigration
+{
+
+    public function up()
+    {
+        global $DB;
+        $DB->RunSQLBatch(__DIR__.'/sql/#FNAME#-up.sql');
+    }
+
+    public function down()
+    {
+        global $DB;
+        $DB->RunSQLBatch(__DIR__.'/sql/#FNAME#-down.sql');
+    }
+}

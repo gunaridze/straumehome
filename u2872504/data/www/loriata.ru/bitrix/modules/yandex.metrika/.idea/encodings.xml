@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/description.ru" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/install/css/admin.css" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/install/index.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/install/js/admin.js" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/install/js/script.js" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/install/version.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/lang/en/install/index.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/lang/en/lib/checker.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/lang/en/lib/options/counters.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/lang/en/options.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/lang/ru/lib/options/counters.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/lang/ru/options.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/lib/ajax.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/lib/ecommerce.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/lib/handlers.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/lib/options/counters.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/options.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/updater.php" charset="windows-1251" />
+  </component>
+</project>

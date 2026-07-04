@@ -1,0 +1,20 @@
+<?php
+$MESS['T_ORDER_CONFIRM_H1'] = 'Спасибо за заказ';
+$MESS['T_ORDER_CONFIRM_DESCRIPTION'] = 'Наш менеджер свяжется с вами в ближайшее время';
+$MESS['T_ORDER_CONFIRM_CHAIN'] = 'Заказ успешно оформлен';
+$MESS['T_ORDER_CONFIRM_TITLE'] = 'Заказ успешно оформлен';
+$MESS['T_ORDER_CONFIRM_ACCESS_DENIED'] = 'Доступ запрещен';
+$MESS['T_ORDER_CONFIRM_ORDER_ITEMS'] = 'Товары:';
+$MESS['T_ORDER_CONFIRM_ORDER_TITLE'] = 'Заказ:';
+$MESS['T_ORDER_CONFIRM_ORDER_DELIVERY'] = 'Доставка:';
+$MESS['T_ORDER_CONFIRM_ORDER_PAYMENT'] = 'Оплата:';
+$MESS['T_ORDER_CONFIRM_ORDER_CONTACTS'] = 'Получатель:';
+$MESS['T_ORDER_CONFIRM_ORDER_DATE'] = 'от #VALUE#';
+$MESS['T_ORDER_CONFIRM_ORDER_ACCOUNT_NUMBER'] = '№#VALUE#';
+$MESS['T_ORDER_CONFIRM_ORDER_PAID'] = 'Оплачен';
+$MESS['T_ORDER_CONFIRM_ORDER_NOT_PAID'] = 'Не оплачен';
+$MESS['T_ORDER_CONFIRM_ORDER_TOTAL'] = 'Итого:';
+$MESS['T_ORDER_CONFIRM_ITEM_QUANTITY'] = 'Количество:';
+$MESS['T_ORDER_CONFIRM_BUILDING'] = 'д. #VALUE#';
+$MESS['T_ORDER_CONFIRM_APARTMENT'] = 'кв. #VALUE#';
+$MESS['T_ORDER_CONFIRM_PAY'] = 'Оплатить';
