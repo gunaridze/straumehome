@@ -1,20 +1,29 @@
-# dirs
-/.idea
-/.logs
-/upload
-/bitrix/cache
-/bitrix/managed_cache
-/bitrix/stack_cache
-/bitrix/updates
-/bitrix/tmp
-/bitrix/backup
-/bitrix/vendor
-/bitrix/wizards
-/bitrix/html_pages
-/logs
-/test
+# Ignore original large SQL dump and all raw SQL dumps recursively
+*.sql
+*.sql.gz
 
-# bitrix config files
+# Local credential specification file (sensitive)
+server_spec.md
+
+# Ignore system junk
+.DS_Store
+Thumbs.db
+
+# Bitrix ignore rules
+/upload/
+/bitrix/cache/
+/bitrix/managed_cache/
+/bitrix/stack_cache/
+/bitrix/updates/
+/bitrix/tmp/
+/bitrix/backup/
+/bitrix/vendor/
+/bitrix/wizards/
+/bitrix/html_pages/
+/logs/
+/test/
+
+# Bitrix configuration files containing credentials (do not commit to git)
 /bitrix/php_interface/dbconn.php
 /bitrix/php_interface/after_connect.php
 /bitrix/php_interface/after_connect_d7.php
@@ -22,28 +31,7 @@
 /bitrix/.settings_extra.php
 /bitrix/admin/.htaccess
 
-# files
-/bitrix/themes/.default/modules.css
-/*.html
-/*.db
-/*.sql
-/*.htpasswd
-/*.txt
+# Other files
 /*.log
-/composer.json
-*.html
-*.log
-*.log.old
-*.sqlite
-*.txt
-*.csv
-*.dt
-*.session
-*.tar
-*.tar.gz
-*.zip
-.local
-/.htaccess
-.DS_Store
-/local/composer.phar
-/local/vendor/
+/*.tar.gz
+/*.zip
