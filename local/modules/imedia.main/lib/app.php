@@ -12,9 +12,9 @@ class App
     private string $_relativePath;
     private bool $_isFront;
     private bool $_is404;
-    private string $_siteId;
-    private string $_lang;
-    private array $_arSite;
+    private ?string $_siteId = null;
+    private ?string $_lang = null;
+    private array $_arSite = [];
     private bool $_isIndexCatalog;
     private static $_instance;
 
